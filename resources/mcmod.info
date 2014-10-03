@@ -1,0 +1,16 @@
+[
+{
+  "modid": "newt",
+  "name": "NeWt",
+  "description": "Neural entangled Wired technologies.",
+  "version": "1.7.2-0.2b",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Robo51"],
+  "credits": "The Forge and FML guys, and Wuppy and Martijn for the tutorials.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

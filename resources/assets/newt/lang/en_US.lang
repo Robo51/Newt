@@ -1,0 +1,8 @@
+item.newt_redcoalItem.name=RedCoal
+item.newt_redcoalingotItem.name=RedCoal Ingot
+item.newt_redcoalbreadItem.name=RedBread
+item.newt_magenitedustItem.name=Magenite Dust
+
+tile.newt_redcoalBlock.name=RedCoal Block
+tile.newt_mageniteoreBlock.name=Magenite Ore
+tile.newt_presserBlock.name=Presser
