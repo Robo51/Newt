@@ -1,8 +1,9 @@
-item.newt_redcoalItem.name=RedCoal
-item.newt_redcoalingotItem.name=RedCoal Ingot
-item.newt_redcoalbreadItem.name=RedBread
-item.newt_magenitedustItem.name=Magenite Dust
+item.Newt_redcoalItem.name=RedCoal
+item.Newt_redcoalingotItem.name=RedCoal Ingot
+item.Newt_redcoalbreadItem.name=RedBread
+item.Newt_magenitedustItem.name=Magenite Dust
 
-tile.newt_redcoalBlock.name=RedCoal Block
-tile.newt_mageniteoreBlock.name=Magenite Ore
-tile.newt_presserBlock.name=Presser
+tile.Newt_redcoalBlock.name=RedCoal Block
+tile.Newt_mageniteoreBlock.name=Magenite Ore
+tile.Newt_presserBlock.name=Presser
+tile.Newt_solarcellBlock.name=Solar Cell

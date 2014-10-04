@@ -1,13 +1,13 @@
-package newt.blocks;
+package Newt.blocks;
 
+import Newt.lib.Constants;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import newt.lib.Constants;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class RedCoalBlock extends Block {
-
+	
 	private String name = "redcoalBlock";
 	
 	public RedCoalBlock() {
@@ -21,4 +21,5 @@ public class RedCoalBlock extends Block {
 		setHardness(5.0F);
 		setResistance(10.0F);
 	}
+
 }

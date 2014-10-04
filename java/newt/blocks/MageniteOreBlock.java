@@ -1,13 +1,13 @@
-package newt.blocks;
+package Newt.blocks;
 
 import java.util.Random;
 
+import Newt.items.ModItems;
+import Newt.lib.Constants;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import newt.items.ModItems;
-import newt.lib.Constants;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class MageniteOreBlock extends Block {
@@ -34,6 +34,6 @@ public class MageniteOreBlock extends Block {
 	
 	@Override
 	public int quantityDropped(Random rand){
-		return 3 + rand.nextInt(2);
+		return 2 + rand.nextInt(3);
 		}
 }

@@ -1,7 +1,7 @@
-package newt;
+package Newt.fuel;
 
+import Newt.items.ModItems;
 import net.minecraft.item.ItemStack;
-import newt.items.ModItems;
 import cpw.mods.fml.common.IFuelHandler;
 
 public class NewtFuel implements IFuelHandler {

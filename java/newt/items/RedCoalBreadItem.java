@@ -1,12 +1,12 @@
-package newt.items;
+package Newt.items;
 
+import Newt.lib.Constants;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
-import newt.lib.Constants;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class RedCoalBreadItem extends ItemFood {

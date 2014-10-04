@@ -1,45 +1,44 @@
-package newt;
+package Newt;
 
-import newt.blocks.ModBlocks;
-import newt.crafting.CraftingItems;
-import newt.items.ModItems;
-import newt.lib.Constants;
-import newt.proxy.CommonProxy;
-import newt.world.NewtWorldGenerator;
+import Newt.blocks.ModBlocks;
+import Newt.crafting.CraftingItems;
+import Newt.fuel.NewtFuel;
+import Newt.items.ModItems;
+import Newt.lib.Constants;
+import Newt.proxy.CommonProxy;
+import Newt.world.NewtWorldGenerator;
 import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-//NeWt
-
 @Mod(modid = Constants.MODID, name = Constants.MODNAME, version = Constants.VERSION)
-public class NeWt {
 
+public class Newt {
+	
     @SidedProxy(clientSide = Constants.CLIENT_PROXY_CLASS, serverSide = Constants.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
 	
-	@EventHandler
-	public void preinit(FMLPreInitializationEvent event) {
-		
-		ModItems.init();		
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event) {
+    	
 		ModBlocks.init();
+		ModItems.init();
 		GameRegistry.registerFuelHandler(new NewtFuel());
 		GameRegistry.registerWorldGenerator(new NewtWorldGenerator(), 10);
-	}
-	
-	@EventHandler
-	public void init(FMLInitializationEvent event) {
-		
+    }
+ 
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+    	
 		CraftingItems.init();
         proxy.registerTileEntities();
-	}
-	
-	@EventHandler
-	public void postinit(FMLPostInitializationEvent event) {
-		
-	}
+    }
+ 
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+ 
+    }
 }

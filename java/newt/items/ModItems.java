@@ -1,4 +1,4 @@
-package newt.items;
+package Newt.items;
 
 import net.minecraft.item.Item;
 
@@ -11,10 +11,9 @@ public final class ModItems {
 	
 	public static void init() {
 		
-		redcoalItem = new RedCoalItem();
+		redcoalItem = new RedCoalItem();	
 		redcoalingotItem = new RedCoalIngotItem();
 		redcoalbreadItem = new RedCoalBreadItem(5, 0.2f, false);
 		magenitedustItem = new MageniteDustItem();
-		
 	}
 }

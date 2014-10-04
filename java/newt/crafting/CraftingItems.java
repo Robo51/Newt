@@ -1,10 +1,10 @@
-package newt.crafting;
+package Newt.crafting;
 
+import Newt.blocks.ModBlocks;
+import Newt.items.ModItems;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import newt.blocks.ModBlocks;
-import newt.items.ModItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public final class CraftingItems {

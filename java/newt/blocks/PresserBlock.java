@@ -1,7 +1,9 @@
-package newt.blocks;
+package Newt.blocks;
 
 import java.util.Random;
 
+import Newt.lib.Constants;
+import Newt.tileentities.TileEntityPresserBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -14,8 +16,6 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import newt.lib.Constants;
-import newt.tileentities.TileEntityPresserBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -52,7 +52,7 @@ public class PresserBlock extends BlockContainer {
 	
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister IconRegistry) {
-		this.blockIcon = IconRegistry.registerIcon(Constants.MODID + ":" + "presserBlockside");
+		this.blockIcon = IconRegistry.registerIcon(Constants.MODID + ":" + "blankBlock");
 		this.iconFace = IconRegistry.registerIcon(Constants.MODID + ":" + "presserBlockface");
 		this.iconTop = IconRegistry.registerIcon(Constants.MODID + ":" + "presserBlocktop");
 	}

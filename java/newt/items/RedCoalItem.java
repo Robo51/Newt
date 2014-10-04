@@ -1,8 +1,8 @@
-package newt.items;
+package Newt.items;
 
+import Newt.lib.Constants;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import newt.lib.Constants;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class RedCoalItem extends Item {

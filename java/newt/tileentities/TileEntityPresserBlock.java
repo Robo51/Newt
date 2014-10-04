@@ -1,4 +1,4 @@
-package newt.tileentities;
+package Newt.tileentities;
 
 import net.minecraft.tileentity.TileEntity;
 

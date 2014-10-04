@@ -1,13 +1,13 @@
-package newt.world;
+package Newt.world;
 
 import java.util.Random;
 
+import Newt.blocks.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
-import newt.blocks.ModBlocks;
 import cpw.mods.fml.common.IWorldGenerator;
 
 public class NewtWorldGenerator implements IWorldGenerator {

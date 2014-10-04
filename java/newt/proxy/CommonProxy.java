@@ -1,6 +1,6 @@
-package newt.proxy;
+package Newt.proxy;
 
-import newt.tileentities.TileEntityPresserBlock;
+import Newt.tileentities.TileEntityPresserBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
