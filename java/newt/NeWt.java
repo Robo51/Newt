@@ -5,17 +5,16 @@ import newt.crafting.CraftingItems;
 import newt.items.ModItems;
 import newt.lib.Constants;
 import newt.proxy.CommonProxy;
-import newt.tileentities.TileEntityPresserBlock;
 import newt.world.NewtWorldGenerator;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
+//NeWt
 
 @Mod(modid = Constants.MODID, name = Constants.MODNAME, version = Constants.VERSION)
 public class NeWt {
@@ -43,9 +42,4 @@ public class NeWt {
 	public void postinit(FMLPostInitializationEvent event) {
 		
 	}
-	
-	@Instance(Constants.MODID)
-	public static NeWt instance;
-	
-	public static final int guiIDPresserBlock = 0;
 }

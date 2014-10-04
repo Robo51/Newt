@@ -11,6 +11,8 @@ public class NewtFuel implements IFuelHandler {
     {
             if(fuel.getItem() == ModItems.redcoalItem)
                     return 2400;
+            if(fuel.getItem() == ModItems.magenitedustItem)
+            		return 1200;
             else
                     return 0;
 	}

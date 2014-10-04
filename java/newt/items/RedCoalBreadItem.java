@@ -4,7 +4,6 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import newt.lib.Constants;
@@ -18,7 +17,7 @@ public class RedCoalBreadItem extends ItemFood {
 		
 		super(heal, saturation, wolfMeat);
 		setUnlocalizedName(Constants.MODID + "_" + name); 
-		setCreativeTab(CreativeTabs.tabFood);
+		setCreativeTab(CreativeTabs.tabMaterials);
 		GameRegistry.registerItem(this, name);
 		setTextureName(Constants.MODID + ":" + name);
 		setAlwaysEdible();
