@@ -1,0 +1,6 @@
+{
+   "munch": {"category": "ambient", "sounds": ["munch1"]},
+   "cyborg-say": {"category": "hostile", "sounds": ["cyborg-say1", "cyborg-say2"]},
+   "cyborg-hurt": {"category": "hostile", "sounds": ["cyborg-hurt1", "cyborg-hurt2"]},
+   "cyborg-death": {"category": "hostile", "sounds": ["cyborg-death"]}
+}

@@ -1,9 +1,48 @@
-item.Newt_redcoalItem.name=RedCoal
-item.Newt_redcoalingotItem.name=RedCoal Ingot
-item.Newt_redcoalbreadItem.name=RedBread
-item.Newt_magenitedustItem.name=Magenite Dust
+itemGroup.NewtTab=Newt
 
-tile.Newt_redcoalBlock.name=RedCoal Block
-tile.Newt_mageniteoreBlock.name=Magenite Ore
-tile.Newt_presserBlock.name=Presser
-tile.Newt_solarcellBlock.name=Solar Cell
+item.newt_redcoalItem.name=Red Coal
+item.newt_magenitedustItem.name=Magenite Dust
+item.newt_unrefinedmageniteItem.name=Unrefined Magenite
+item.newt_saltpaperItem.name=Salt Paper
+item.newt_paperstackItem.name=Paper Stack
+item.newt_copperstackItem.name=Copper Stack
+
+item.newt_redcoalingotItem.name=Red Coal Ingot
+item.newt_mageniteingotItem.name=Magenite Ingot
+item.newt_aluminiumingotItem.name=Aluminium Ingot
+item.newt_zincingotItem.name=Zinc Ingot
+item.newt_alumicingotItem.name=Alumic Alloy
+item.newt_nickelingotItem.name=Nickel Ingot
+item.newt_copperingotItem.name=Copper Ingot
+
+item.newt_redcoalbreadItem.name=Red Bread
+
+item.newt_smallbatteryItem.name=Small Battery
+item.newt_tempbatteryItem.name=Temporary Battery
+item.newt_coppercoilItem.name=Copper Coil
+item.newt_motorcoilItem.name=Motor Coil
+
+
+
+tile.newt_redcoalBlock.name=Red Coal Block
+tile.newt_mageniteBlock.name=Magenite Block
+
+tile.newt_mageniteoreBlock.name=Magenite Ore
+tile.newt_aluminiumoreBlock.name=Aluminium Ore
+tile.newt_zincoreBlock.name=Zinc Ore
+tile.newt_nickeloreBlock.name=Nickel Ore
+tile.newt_copperoreBlock.name=Copper Ore
+
+tile.newt_presserBlock_Idle.name=Presser
+tile.newt_presserBlock_Active.name=Presser (Active)
+
+tile.newt_solarcellBlock.name=Solar Cell
+tile.newt_chassisBlock.name=Chassis
+tile.newt_powercellBlock.name=Power Cell
+
+tile.newt_furnaceBlock_Idle.name=Furnace
+tile.newt_furnaceBlock_Active.name=Furnace (Active)
+
+tile.newt_neuralcellBlock.name=Neural Cell
+
+entity.Cyborg.name=Cyborg
